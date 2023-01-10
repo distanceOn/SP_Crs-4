@@ -1,0 +1,15 @@
+@import 'fonts';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'StratosSkyeng Web', sans-serif;
+}
+
+.background {
+    background: #004980;
+    width: 100vw;
+    height: 100vh;
+}
+
+@import 'difficulty';
