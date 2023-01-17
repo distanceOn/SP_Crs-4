@@ -1,0 +1,32 @@
+{
+  "name": "sp_crs-4",
+  "version": "1.0.0",
+  "description": "4 курс на проекте Skypro Игра",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -p 3004",
+    "format": "prettier --write ./js/",
+    "lint:js": "eslint ./js/*.js",
+    "lint:css": "stylelint ./css/*.css",
+    "lint": "npm run lint:js && npm run lint:css",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/distanceOn/SP_Crs-4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/distanceOn/SP_Crs-4/issues"
+  },
+  "homepage": "https://github.com/distanceOn/SP_Crs-4#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.3"
+  }
+}
