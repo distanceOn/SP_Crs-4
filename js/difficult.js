@@ -13,25 +13,25 @@ function resetDifficultStyles() {
     }
 }
 
+function toAnotherStyle(item, textLevel) {
+    item.style.backgroundColor = "yellow";
+    item.style.transform = "scale(1.1)";
+    difficultChoice = textLevel;
+}
+
 easyLevel.addEventListener("click", () => {
     resetDifficultStyles();
-    easyLevel.style.backgroundColor = "yellow";
-    easyLevel.style.transform = "scale(1.1)";
-    difficultChoice = "easy";
+    toAnotherStyle(easyLevel, "easy");
 });
 
 mediumLevel.addEventListener("click", () => {
     resetDifficultStyles();
-    mediumLevel.style.backgroundColor = "yellow";
-    mediumLevel.style.transform = "scale(1.1)";
-    difficultChoice = "medium";
+    toAnotherStyle(mediumLevel, "medium");
 });
 
 hardLevel.addEventListener("click", () => {
     resetDifficultStyles();
-    hardLevel.style.backgroundColor = "yellow";
-    hardLevel.style.transform = "scale(1.1)";
-    difficultChoice = "hard";
+    toAnotherStyle(hardLevel, "hard");
 });
 
 function chooseDifficultLevel(level) {
@@ -50,6 +50,7 @@ function chooseDifficultLevel(level) {
             window.difficult = level;
             core.textContent = "";
             core.append(templateHard.content);
+            hideCards();
             break;
         default:
             break;
