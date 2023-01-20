@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "StratosSkyeng Web";
   src: url("StratosSkyengWeb-ExtraBold.woff2") format("woff2"), url("StratosSkyengWeb-ExtraBold.woff") format("woff");
@@ -357,4 +358,126 @@
 .diff__button:hover {
   background-color: #9c0909;
   border: 1px solid #291d1d;
+}
+
+.game {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.game__header {
+  padding: 2.84vh 2.148vw 0 2.148vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4.522vh;
+}
+.game__time {
+  display: flex;
+  flex-direction: column;
+}
+.game__time-desc {
+  display: flex;
+  margin-left: 25%;
+  margin-right: 4%;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+.game__time-desc-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -1.679vh;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 200%;
+}
+.game__time-go {
+  color: #FFFFFF;
+}
+.game__time-go_item {
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 112%;
+  letter-spacing: 1px;
+}
+.game__button {
+  box-sizing: border-box;
+  width: 24.023vw;
+  height: 6.459vh;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 133%;
+  text-align: center;
+  border: none;
+  color: #FFFFFF;
+  background: #7AC100;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+.game__button:hover {
+  background-color: #9c0909;
+  border: 1px solid #291d1d;
+}
+.game__cards-item {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.hard__cards {
+  height: 100%;
+  padding: 0 2.539vw 6.33vh 2.539vw;
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(9, minmax(6vw, 1fr));
+  grid-template-rows: repeat(4, minmax(1.4fr, 133px));
+  gap: 15px;
+}
+.hard__cards-item {
+  border-radius: 4px;
+  position: relative;
+  background-color: #fff;
+  background-image: url(/imgs/рубашка.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.medium__cards {
+  height: 100%;
+  padding: 0 2.539vw 6.33vh 2.539vw;
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(6vw, 1fr));
+  grid-template-rows: repeat(4, minmax(1.4fr, 133px));
+  gap: 15px;
+}
+.medium__cards-item {
+  border-radius: 4px;
+  background-color: #fff;
+  background-image: url(/imgs/рубашка.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.easy__cards {
+  height: 100%;
+  padding: 0 2.539vw 6.33vh 2.539vw;
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(6vw, 1fr));
+  grid-template-rows: repeat(4, minmax(1.4fr, 133px));
+  gap: 15px;
+}
+.easy__cards-item {
+  border-radius: 4px;
+  background-color: #fff;
+  background-image: url(/imgs/рубашка.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=styles.css.map */
