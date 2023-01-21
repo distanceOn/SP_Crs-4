@@ -301,7 +301,7 @@
 .diff__block {
   width: 46.875%;
   height: 59.77%;
-  background: #C2F5FF;
+  background: #c2f5ff;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
@@ -350,8 +350,8 @@
   line-height: 133%;
   text-align: center;
   border: none;
-  color: #FFFFFF;
-  background: #7AC100;
+  color: #ffffff;
+  background: #7ac100;
   border-radius: 12px;
   transition: all 0.3s;
 }
@@ -382,7 +382,7 @@
   margin-left: 25%;
   margin-right: 4%;
   justify-content: space-between;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .game__time-desc-item {
   display: flex;
@@ -394,7 +394,7 @@
   line-height: 200%;
 }
 .game__time-go {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .game__time-go_item {
   font-weight: 400;
@@ -411,8 +411,8 @@
   line-height: 133%;
   text-align: center;
   border: none;
-  color: #FFFFFF;
-  background: #7AC100;
+  color: #ffffff;
+  background: #7ac100;
   border-radius: 12px;
   transition: all 0.3s;
 }
