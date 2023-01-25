@@ -1,8 +1,8 @@
 export function resetDifficultStyles() {
-  const diffs = document.querySelectorAll(".diff__choice-item");
+  const diffs: NodeListOf<Element> = document.querySelectorAll(".diff__choice-item");
   for (const item of diffs) {
-    item.style.backgroundColor = "#fff";
-    item.style.transform = "none";
+    (item as HTMLElement).style.backgroundColor = "#fff";
+    (item as HTMLElement).style.transform = "none";
   }
 }
 

@@ -1,11 +1,11 @@
-import { renderCards } from "./game.js";
+import { renderCards } from "./game";
 import { hideCards } from "./hideCards";
 import { gameplay } from "./gameEvents";
 
-const core = document.querySelector(".background");
-const templateEasy = document.querySelector("#easy");
-const templateMedium = document.querySelector("#medium");
-const templateHard = document.querySelector("#hard");
+const core: HTMLElement = document.querySelector(".background")!;
+const templateEasy: HTMLMetaElement = document.querySelector("#easy")!;
+const templateMedium: HTMLMetaElement = document.querySelector("#medium")!;
+const templateHard: HTMLMetaElement = document.querySelector("#hard")!;
 
 export function chooseDifficultLevel(level) {
   switch (level) {

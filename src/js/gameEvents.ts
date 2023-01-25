@@ -1,5 +1,5 @@
-window.compares = {};
 export function gameplay() {
+  window.compares = {};
   const cards = document.querySelectorAll(".game__cards-back");
   debugger;
   let clicks = 0;
@@ -11,21 +11,23 @@ export function gameplay() {
     console.log(cards.length);
 
     card.addEventListener("click", (event) => {
-      if (card.querySelector(".game__cards-item").style.display !== "none") {
+      const element: HTMLElement = card.querySelector(".game__cards-item")!;
+      if (element.style.display !== "none") {
         event.preventDefault();
       } else {
-        card.querySelector(".game__cards-item").style.display = "block";
+        element.style.display = "block";
         clicks++;
         console.log(clicks);
       }
     });
 
     card.addEventListener("click", () => {
+      const element: HTMLElement = card.querySelector(".game__cards-item")!;
       if (firstCompare === undefined) {
-        firstCompare = card.querySelector(".game__cards-item").style.backgroundImage;
+        firstCompare = element.style.backgroundImage;
         console.log("первый -  " + firstCompare);
       } else {
-        secondCompare = card.querySelector(".game__cards-item").style.backgroundImage;
+        secondCompare = element.style.backgroundImage;
         console.log("второй -  " + secondCompare);
         if (firstCompare !== secondCompare) {
           alert("Вы проиграли");

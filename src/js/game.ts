@@ -7,7 +7,7 @@ export function renderCards(originalAmount) {
   let i = 0;
   currentCards.forEach((div) => {
     result[i];
-    div.style.backgroundImage = `url(${result[i]})`;
+    (div as HTMLElement).style.backgroundImage = `url(${result[i]})`;
     i++;
   });
 }

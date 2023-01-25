@@ -2,11 +2,11 @@ import { resetDifficultStyles } from "./styleFunctions";
 import { toAnotherStyle } from "./styleFunctions";
 import { chooseDifficultLevel } from "./diffChoose";
 
-const easyLevel = document.querySelector(".diff__choice-item_easy");
-const mediumLevel = document.querySelector(".diff__choice-item_medium");
-const hardLevel = document.querySelector(".diff__choice-item_hard");
+const easyLevel: HTMLElement = document.querySelector(".diff__choice-item_easy")!;
+const mediumLevel: HTMLElement = document.querySelector(".diff__choice-item_medium")!;
+const hardLevel: HTMLElement = document.querySelector(".diff__choice-item_hard")!;
 
-const startButton = document.querySelector(".diff__button");
+const startButton: HTMLElement = document.querySelector(".diff__button")!;
 
 let difficultChoice;
 
