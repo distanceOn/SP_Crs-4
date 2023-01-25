@@ -1,6 +1,5 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const CopyPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
@@ -15,10 +14,16 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: "asset/resource",
+        generator: {
+          filename: "assets/imgs/[name].[hash].[ext]",
+        },
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: "asset/resource",
+        generator: {
+          filename: "assets/fonts/[name].[hash].[ext]",
+        },
       },
     ],
   },
@@ -32,9 +37,6 @@ module.exports = {
     clean: true,
   },
   plugins: [
-    new CopyPlugin({
-      patterns: [{ from: "static", to: "static" }],
-    }),
     new HtmlWebpackPlugin({
       template: "./index.html",
     }),

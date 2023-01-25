@@ -1,16 +1,13 @@
-export function Game() {
-  function hideCards() {
-    const cards = document.querySelectorAll(".game__cards-item");
-    setTimeout(() => {
-      for (const card of cards) {
-        card.style.display = "block";
-      }
-    }, 1000);
+import { createCollection as resultCollection } from "./createCollection";
 
-    setTimeout(() => {
-      for (const card of cards) {
-        card.style.display = "none";
-      }
-    }, 5000);
-  }
+export function renderCards(originalAmount) {
+  const result = resultCollection(originalAmount);
+  const currentCards = document.querySelectorAll(".game__cards-item");
+  console.log(currentCards);
+  let i = 0;
+  currentCards.forEach((div) => {
+    result[i];
+    div.style.backgroundImage = `url(${result[i]})`;
+    i++;
+  });
 }

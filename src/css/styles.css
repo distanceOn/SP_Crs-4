@@ -1,280 +1,147 @@
 @charset "UTF-8";
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-ExtraBold.woff2") format("woff2"), url("StratosSkyengWeb-ExtraBold.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-extrabold.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-extrabold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-ExtraBold.woff2") format("woff2"), url("StratosSkyengWeb-ExtraBold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-BoldItalic.woff2") format("woff2"), url("StratosSkyengWeb-BoldItalic.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-bolditalic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-bolditalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-BoldItalic.woff2") format("woff2"), url("StratosSkyengWeb-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-Bold.woff2") format("woff2"), url("StratosSkyengWeb-Bold.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-bold.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-BlackItalic.woff2") format("woff2"), url("StratosSkyengWeb-BlackItalic.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-blackitalic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-blackitalic.woff") format("woff");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-Black.woff2") format("woff2"), url("StratosSkyengWeb-Black.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-black.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-Bold.woff2") format("woff2"), url("StratosSkyengWeb-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-Black.woff2") format("woff2"), url("StratosSkyengWeb-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-BlackItalic.woff2") format("woff2"), url("StratosSkyengWeb-BlackItalic.woff") format("woff");
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-LightItalic.woff2") format("woff2"), url("StratosSkyengWeb-LightItalic.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-lightitalic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-lightitalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-Italic.woff2") format("woff2"), url("StratosSkyengWeb-Italic.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-italic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-ExtraLight.woff2") format("woff2"), url("StratosSkyengWeb-ExtraLight.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-extralight.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-extralight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-ExtraLightItalic.woff2") format("woff2"), url("StratosSkyengWeb-ExtraLightItalic.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-extralightitalic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-extralightitalic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-ExtraLightItalic.woff2") format("woff2"), url("StratosSkyengWeb-ExtraLightItalic.woff") format("woff");
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-LightItalic.woff2") format("woff2"), url("StratosSkyengWeb-LightItalic.woff") format("woff");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-Light.woff2") format("woff2"), url("StratosSkyengWeb-Light.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-light.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-ExtraBoldItalic.woff2") format("woff2"), url("StratosSkyengWeb-ExtraBoldItalic.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-extrabolditalic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-extrabolditalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-Italic.woff2") format("woff2"), url("StratosSkyengWeb-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-Light.woff2") format("woff2"), url("StratosSkyengWeb-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-ExtraBoldItalic.woff2") format("woff2"), url("StratosSkyengWeb-ExtraBoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-ExtraLight.woff2") format("woff2"), url("StratosSkyengWeb-ExtraLight.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-Regular.woff2") format("woff2"), url("StratosSkyengWeb-Regular.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-regular.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-SemiBold.woff2") format("woff2"), url("StratosSkyengWeb-SemiBold.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-semibold.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-semibold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-MediumItalic.woff2") format("woff2"), url("StratosSkyengWeb-MediumItalic.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-mediumitalic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-mediumitalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-SemiBoldItalic.woff2") format("woff2"), url("StratosSkyengWeb-SemiBoldItalic.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-semibolditalic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-semibolditalic.woff") format("woff");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-MediumItalic.woff2") format("woff2"), url("StratosSkyengWeb-MediumItalic.woff") format("woff");
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-Medium.woff2") format("woff2"), url("StratosSkyengWeb-Medium.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-medium.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-SemiBold.woff2") format("woff2"), url("StratosSkyengWeb-SemiBold.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-semibold.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-semibold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-Medium.woff2") format("woff2"), url("StratosSkyengWeb-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
   font-family: "StratosSkyeng Web SemiLight";
-  src: url("StratosSkyengWeb-SemiLight.woff2") format("woff2"), url("StratosSkyengWeb-SemiLight.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-Regular.woff2") format("woff2"), url("StratosSkyengWeb-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-SemiBoldItalic.woff2") format("woff2"), url("StratosSkyengWeb-SemiBoldItalic.woff") format("woff");
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StratosSkyeng Web SemiLight";
-  src: url("StratosSkyengWeb-SemiLightItalic.woff2") format("woff2"), url("StratosSkyengWeb-SemiLightItalic.woff") format("woff");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-ThinItalic.woff2") format("woff2"), url("StratosSkyengWeb-ThinItalic.woff") format("woff");
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StratosSkyeng Web SemiLight";
-  src: url("StratosSkyengWeb-SemiLight.woff2") format("woff2"), url("StratosSkyengWeb-SemiLight.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-semilight.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-semilight.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web SemiLight";
-  src: url("StratosSkyengWeb-SemiLightItalic.woff2") format("woff2"), url("StratosSkyengWeb-SemiLightItalic.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-semilightitalic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-semilightitalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-ThinItalic.woff2") format("woff2"), url("StratosSkyengWeb-ThinItalic.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-thinitalic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-thinitalic.woff") format("woff");
   font-weight: 100;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-Thin.woff2") format("woff2"), url("StratosSkyengWeb-Thin.woff") format("woff");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StratosSkyeng Web";
-  src: url("StratosSkyengWeb-Thin.woff2") format("woff2"), url("StratosSkyengWeb-Thin.woff") format("woff");
+  src: url("/static/fonts/stratosskyengweb-thin.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -288,7 +155,9 @@
 .background {
   background: #004980;
   width: 100vw;
-  height: 100vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .diff {
@@ -361,6 +230,7 @@
 }
 
 .game {
+  overflow: auto;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -382,7 +252,7 @@
   margin-left: 25%;
   margin-right: 4%;
   justify-content: space-between;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .game__time-desc-item {
   display: flex;
@@ -394,7 +264,7 @@
   line-height: 200%;
 }
 .game__time-go {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .game__time-go_item {
   font-weight: 400;
@@ -411,8 +281,8 @@
   line-height: 133%;
   text-align: center;
   border: none;
-  color: #FFFFFF;
-  background: #7AC100;
+  color: #ffffff;
+  background: #7ac100;
   border-radius: 12px;
   transition: all 0.3s;
 }
@@ -420,64 +290,51 @@
   background-color: #9c0909;
   border: 1px solid #291d1d;
 }
-.game__cards-item {
-  display: none;
-  position: absolute;
-  width: 100%;
-  height: 100%;
+.game__cards {
+  padding-bottom: 5%;
 }
-
-.hard__cards {
-  height: 100%;
-  padding: 0 2.539vw 6.33vh 2.539vw;
-  align-self: center;
-  display: grid;
-  grid-template-columns: repeat(9, minmax(6vw, 1fr));
-  grid-template-rows: repeat(4, minmax(1.4fr, 133px));
-  gap: 15px;
-}
-.hard__cards-item {
+.game__cards-back {
   border-radius: 4px;
   position: relative;
   background-color: #fff;
-  background-image: url(/imgs/рубашка.svg);
+  background-image: url(../../static/imgs/рубашка.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.game__cards-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+}
+
+.hard__cards {
+  padding-top: 5%;
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(6, 95px);
+  grid-template-rows: repeat(3, 133px);
+  gap: 15px;
 }
 
 .medium__cards {
-  height: 100%;
-  padding: 0 2.539vw 6.33vh 2.539vw;
+  padding-top: 5%;
   align-self: center;
   display: grid;
-  grid-template-columns: repeat(6, minmax(6vw, 1fr));
-  grid-template-rows: repeat(4, minmax(1.4fr, 133px));
+  grid-template-columns: repeat(4, 95px);
+  grid-template-rows: repeat(3, 133px);
   gap: 15px;
-}
-.medium__cards-item {
-  border-radius: 4px;
-  background-color: #fff;
-  background-image: url(/imgs/рубашка.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .easy__cards {
-  height: 100%;
-  padding: 0 2.539vw 6.33vh 2.539vw;
+  padding-top: 10%;
   align-self: center;
   display: grid;
-  grid-template-columns: repeat(3, minmax(6vw, 1fr));
-  grid-template-rows: repeat(4, minmax(1.4fr, 133px));
+  grid-template-columns: repeat(3, 95px);
+  grid-template-rows: repeat(2, 133px);
   gap: 15px;
-}
-.easy__cards-item {
-  border-radius: 4px;
-  background-color: #fff;
-  background-image: url(/imgs/рубашка.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }/*# sourceMappingURL=styles.css.map */
