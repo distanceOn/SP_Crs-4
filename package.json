@@ -5,14 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server -p 3004",
-    "format": "prettier —write .",
+    "format": "prettier --write ./js/",
     "lint:js": "eslint ./js/*.js",
     "lint:css": "stylelint ./css/*.css",
     "lint": "npm run lint:js && npm run lint:css",
-    "stylelint": "stylelint '**/*{.css,.scss}'",
-    "stylelint:fix": "stylelint '**/*{.css,.scss}' --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build": "NODE_ENV=production webpack",
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -25,32 +24,20 @@
   },
   "homepage": "https://github.com/distanceOn/SP_Crs-4#readme",
   "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^4.2.2",
     "eslint": "^8.32.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "html-webpack-plugin": "^5.5.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.1.0",
+    "mini-css-extract-plugin": "^2.7.2",
     "prettier": "^2.8.3",
-    "stylelint": "^14.16.1",
-    "stylelint-config-prettier": "^9.0.4",
-    "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-standard": "^29.0.0",
-    "stylelint-order": "^6.0.1",
-    "stylelint-prettier": "^2.0.0",
-    "stylelint-scss": "^4.3.0"
-  },
-  "dependencies": {
-    "http-server": "^14.1.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.(css|scss)": [
-      "stylelint --fix"
-    ]
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
   }
 }

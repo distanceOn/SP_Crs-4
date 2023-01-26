@@ -4,15 +4,11 @@
     "es6": true,
     "node": true
   },
-  "extends": ["airbnb", "eslint:recommended", "prettier"],
+  "extends": ["prettier"],
   "plugins": ["prettier"],
   "parserOptions": {
-    "ecmaVersion": 2020
+    "ecmaVersion": 2020,
+    "sourceType": "module"
   },
-  "rules": {
-    "prettier/prettier": "error",
-    "camelcase": ["error"],
-    "eqeqeq": ["error", "always"],
-    "no-undef": "off"
-  }
+  "rules": {}
 }

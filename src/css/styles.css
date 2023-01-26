@@ -1,0 +1,340 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-extrabold.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-extrabold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-bolditalic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-bolditalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-bold.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-blackitalic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-blackitalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-black.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-lightitalic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-lightitalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-italic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-extralight.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-extralight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-extralightitalic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-extralightitalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-light.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-extrabolditalic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-extrabolditalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-regular.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-semibold.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-mediumitalic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-mediumitalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-semibolditalic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-semibolditalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-medium.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-semibold.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web SemiLight";
+  src: url("/static/fonts/stratosskyengweb-semilight.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-semilight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web SemiLight";
+  src: url("/static/fonts/stratosskyengweb-semilightitalic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-semilightitalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-thinitalic.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-thinitalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StratosSkyeng Web";
+  src: url("/static/fonts/stratosskyengweb-thin.woff2") format("woff2"), url("/static/fonts/stratosskyengweb-thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "StratosSkyeng Web", sans-serif;
+}
+
+.background {
+  background: #004980;
+  width: 100vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.diff {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.diff__block {
+  width: 46.875%;
+  height: 59.77%;
+  background: #C2F5FF;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.diff__h1 {
+  margin-top: 0.872%;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  color: #004980;
+}
+.diff__choice {
+  display: flex;
+  margin: 0 14.39%;
+  justify-content: center;
+  gap: 7.02%;
+  height: 21.351%;
+}
+.diff__choice-item {
+  width: 21.351%;
+  height: 100%;
+  background: #fff;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #004980;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 112%;
+  transition: all 0.1s;
+}
+.diff__choice-item:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+}
+.diff__button {
+  box-sizing: border-box;
+  width: 51.25%;
+  height: 10.893%;
+  margin: 3.975% 24.375% 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 133%;
+  text-align: center;
+  border: none;
+  color: #FFFFFF;
+  background: #7AC100;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+.diff__button:hover {
+  background-color: #9c0909;
+  border: 1px solid #291d1d;
+}
+
+.game {
+  overflow: auto;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.game__header {
+  padding: 2.84vh 2.148vw 0 2.148vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4.522vh;
+}
+.game__time {
+  display: flex;
+  flex-direction: column;
+}
+.game__time-desc {
+  display: flex;
+  margin-left: 25%;
+  margin-right: 4%;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.game__time-desc-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -1.679vh;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 200%;
+}
+.game__time-go {
+  color: #ffffff;
+}
+.game__time-go_item {
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 112%;
+  letter-spacing: 1px;
+}
+.game__button {
+  box-sizing: border-box;
+  width: 24.023vw;
+  height: 6.459vh;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 133%;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+  background: #7ac100;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+.game__button:hover {
+  background-color: #9c0909;
+  border: 1px solid #291d1d;
+}
+.game__cards {
+  padding-bottom: 5%;
+}
+.game__cards-back {
+  border-radius: 4px;
+  position: relative;
+  background-color: #fff;
+  background-image: url(../../static/imgs/рубашка.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.game__cards-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+}
+
+.hard__cards {
+  padding-top: 5%;
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(6, 95px);
+  grid-template-rows: repeat(3, 133px);
+  gap: 15px;
+}
+
+.medium__cards {
+  padding-top: 5%;
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(4, 95px);
+  grid-template-rows: repeat(3, 133px);
+  gap: 15px;
+}
+
+.easy__cards {
+  padding-top: 10%;
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(3, 95px);
+  grid-template-rows: repeat(2, 133px);
+  gap: 15px;
+}/*# sourceMappingURL=styles.css.map */
