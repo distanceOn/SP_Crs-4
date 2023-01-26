@@ -7,5 +7,6 @@ declare global {
   interface Window {
     difficult?: string;
     compares?: any;
+    winOrLose?: boolean;
   }
 }

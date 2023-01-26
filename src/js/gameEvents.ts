@@ -1,7 +1,6 @@
 export function gameplay() {
   window.compares = {};
   const cards = document.querySelectorAll(".game__cards-back");
-  debugger;
   let clicks = 0;
   let firstCompare = window.compares.firstCompare;
   let secondCompare = window.compares.secondCompare;
@@ -31,6 +30,7 @@ export function gameplay() {
         console.log("второй -  " + secondCompare);
         if (firstCompare !== secondCompare) {
           alert("Вы проиграли");
+          window.winOrLose = true;
         } else {
           if (clicks !== cards.length) {
             firstCompare = undefined;
@@ -38,6 +38,7 @@ export function gameplay() {
             console.log(firstCompare, secondCompare);
           } else {
             alert("Вы выиграли!");
+            window.winOrLose = true;
           }
         }
       }
