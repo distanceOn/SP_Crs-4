@@ -29,7 +29,12 @@ export function gameplay() {
         secondCompare = element.style.backgroundImage;
         console.log("второй -  " + secondCompare);
         if (firstCompare !== secondCompare) {
-          alert("Вы проиграли");
+          const win: HTMLMetaElement = document.querySelector("#lose")!;
+          document.querySelector(".game")?.append(win.content);
+          document.querySelector(".result__min")!.textContent =
+            document.querySelector(".game__time-go_min")!.textContent!;
+          document.querySelector(".result__sec")!.textContent =
+            document.querySelector(".game__time-go_sek")!.textContent!;
           window.winOrLose = true;
         } else {
           if (clicks !== cards.length) {
@@ -37,7 +42,12 @@ export function gameplay() {
             secondCompare = undefined;
             console.log(firstCompare, secondCompare);
           } else {
-            alert("Вы выиграли!");
+            const win: HTMLMetaElement = document.querySelector("#win")!;
+            document.querySelector(".game")?.append(win.content);
+            document.querySelector(".result__min")!.textContent =
+              document.querySelector(".game__time-go_min")!.textContent!;
+            document.querySelector(".result__sec")!.textContent =
+              document.querySelector(".game__time-go_sek")!.textContent!;
             window.winOrLose = true;
           }
         }
