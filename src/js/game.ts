@@ -8,6 +8,7 @@ export function renderCards(originalAmount) {
   currentCards.forEach((div) => {
     result[i];
     (div as HTMLElement).style.backgroundImage = `url(${result[i]})`;
+    (div as HTMLElement).style.display = "block";
     i++;
   });
 }

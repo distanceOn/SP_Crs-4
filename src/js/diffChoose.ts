@@ -10,6 +10,11 @@ const templateMedium: HTMLMetaElement = document.querySelector("#medium")!;
 const templateHard: HTMLMetaElement = document.querySelector("#hard")!;
 
 export function chooseDifficultLevel(level) {
+  const timeout = setTimeout(() => {
+    hideCards();
+    gameplay();
+    countup();
+  }, 5000);
   switch (level) {
     case "easy":
       window.difficult = level;
@@ -17,11 +22,17 @@ export function chooseDifficultLevel(level) {
       core.append(templateEasy.content);
       renderCards(3);
       countdown();
-      setTimeout(() => {
-        hideCards();
-        gameplay();
-        countup();
-      }, 5000);
+      timeout;
+      document.querySelector(".game__button")?.addEventListener("click", () => {
+        clearTimeout(timeout);
+        renderCards(3);
+        countdown();
+        setTimeout(() => {
+          hideCards();
+          gameplay();
+          countup();
+        }, 5000);
+      });
       break;
 
     case "medium":
@@ -30,11 +41,17 @@ export function chooseDifficultLevel(level) {
       core.append(templateMedium.content);
       renderCards(6);
       countdown();
-      setTimeout(() => {
-        hideCards();
-        gameplay();
-        countup();
-      }, 5000);
+      timeout;
+      document.querySelector(".game__button")?.addEventListener("click", () => {
+        clearTimeout(timeout);
+        renderCards(6);
+        countdown();
+        setTimeout(() => {
+          hideCards();
+          gameplay();
+          countup();
+        }, 5000);
+      });
       break;
 
     case "hard":
@@ -43,11 +60,17 @@ export function chooseDifficultLevel(level) {
       core.append(templateHard.content);
       renderCards(9);
       countdown();
-      setTimeout(() => {
-        hideCards();
-        gameplay();
-        countup();
-      }, 5000);
+      timeout;
+      document.querySelector(".game__button")?.addEventListener("click", () => {
+        clearTimeout(timeout);
+        renderCards(9);
+        countdown();
+        setTimeout(() => {
+          hideCards();
+          gameplay();
+          countup();
+        }, 5000);
+      });
       break;
 
     default:

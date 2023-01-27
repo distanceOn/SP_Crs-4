@@ -10,4 +10,7 @@ export function countdown() {
     }
   }, 1000);
   interval;
+  document.querySelector(".game__button")?.addEventListener("click", () => {
+    clearInterval(interval);
+  });
 }
