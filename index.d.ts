@@ -6,7 +6,11 @@ declare module "*.svg";
 declare global {
   interface Window {
     difficult?: string;
-    compares?: any;
-    winOrLose?: boolean;
+    loseTemplate?: HTMLElement;
+    winTemplate?: HTMLElement;
+    win?: boolean;
+    timerdown?: boolean;
+    timeout?: ReturnType<typeof setTimeout>;
+    timerup?: boolean;
   }
 }

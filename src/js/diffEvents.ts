@@ -8,32 +8,30 @@ const hardLevel: HTMLElement = document.querySelector(".diff__choice-item_hard")
 
 const startButton: HTMLElement = document.querySelector(".diff__button")!;
 
-let difficultChoice;
-
 export function diffEvents() {
   easyLevel.addEventListener("click", () => {
     resetDifficultStyles();
     toAnotherStyle(easyLevel);
-    difficultChoice = "easy";
+    window.difficult = "easy";
   });
 
   mediumLevel.addEventListener("click", () => {
     resetDifficultStyles();
     toAnotherStyle(mediumLevel);
-    difficultChoice = "medium";
+    window.difficult = "medium";
   });
 
   hardLevel.addEventListener("click", () => {
     resetDifficultStyles();
     toAnotherStyle(hardLevel);
-    difficultChoice = "hard";
+    window.difficult = "hard";
   });
 
   startButton.addEventListener("click", (event) => {
-    if (difficultChoice === undefined) {
+    if (window.difficult === undefined) {
       event.preventDefault();
     } else {
-      chooseDifficultLevel(difficultChoice);
+      chooseDifficultLevel(window.difficult);
     }
   });
 }

@@ -10,66 +10,72 @@ const templateMedium: HTMLMetaElement = document.querySelector("#medium")!;
 const templateHard: HTMLMetaElement = document.querySelector("#hard")!;
 
 export function chooseDifficultLevel(level) {
-  const timeout = setTimeout(() => {
+  window.timeout = setTimeout(() => {
     hideCards();
     gameplay();
     countup();
   }, 5000);
+
   switch (level) {
     case "easy":
-      window.difficult = level;
       core.textContent = "";
       core.append(templateEasy.content);
-      renderCards(3);
+      renderCards();
       countdown();
-      timeout;
+      window.timeout;
       document.querySelector(".game__button")?.addEventListener("click", () => {
-        clearTimeout(timeout);
-        renderCards(3);
-        countdown();
-        setTimeout(() => {
+        window.timerup = false;
+        clearTimeout(window.timeout);
+        window.timeout = setTimeout(() => {
           hideCards();
           gameplay();
+
           countup();
         }, 5000);
+        renderCards();
+        countdown();
+        window.timeout;
       });
       break;
 
     case "medium":
-      window.difficult = level;
       core.textContent = "";
       core.append(templateMedium.content);
-      renderCards(6);
+      renderCards();
       countdown();
-      timeout;
+      window.timeout;
       document.querySelector(".game__button")?.addEventListener("click", () => {
-        clearTimeout(timeout);
-        renderCards(6);
-        countdown();
-        setTimeout(() => {
+        window.timerup = false;
+        clearTimeout(window.timeout);
+        window.timeout = setTimeout(() => {
           hideCards();
           gameplay();
           countup();
         }, 5000);
+        renderCards();
+        countdown();
+        window.timeout;
       });
       break;
 
     case "hard":
-      window.difficult = level;
       core.textContent = "";
       core.append(templateHard.content);
-      renderCards(9);
+      renderCards();
       countdown();
-      timeout;
+      window.timeout;
       document.querySelector(".game__button")?.addEventListener("click", () => {
-        clearTimeout(timeout);
-        renderCards(9);
-        countdown();
-        setTimeout(() => {
+        window.timerup = false;
+        clearTimeout(window.timeout);
+        window.timeout = setTimeout(() => {
           hideCards();
           gameplay();
+
           countup();
         }, 5000);
+        renderCards();
+        countdown();
+        window.timeout;
       });
       break;
 

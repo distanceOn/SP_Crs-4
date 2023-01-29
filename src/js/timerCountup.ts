@@ -1,4 +1,5 @@
 export function countup() {
+  window.timerup = true;
   let seconds = 0;
   let minutes = 0;
   const currentSeconds: HTMLElement = document.querySelector(".game__time-go_sek")!;
@@ -20,7 +21,7 @@ export function countup() {
     } else {
       currentSeconds.textContent = `${seconds}`;
     }
-    if (window.winOrLose === true) {
+    if (window.timerup === false) {
       clearInterval(interval);
     }
   }, 1000);
