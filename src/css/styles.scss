@@ -7,6 +7,7 @@
 }
 
 .background {
+  position: relative;
   background: #004980;
   width: 100vw;
   height: fit-content;
@@ -14,3 +15,4 @@
 
 @import "difficulty";
 @import "game";
+@import "result";
